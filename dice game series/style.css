@@ -1,0 +1,57 @@
+body {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  background-color: #ffffff;
+}
+
+.game {
+  max-width: 600px;
+  margin: 20px auto;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.player {
+  text-align: center;
+  padding: 10px;
+  border: 1px solid #ffffff;
+  border-radius: 8px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #127a7a;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: #060607;
+}
+
+#result {
+  margin-top: 20px;
+  text-align: center;
+}
+
+#winner {
+  margin-top: 10px;
+}
+
+.dice {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.dice img {
+  width: 50px;
+  height: 50px;
+  /* border: 2px solid #333;
+  border-radius: 8px; */
+  background-color: #fff;
+}
